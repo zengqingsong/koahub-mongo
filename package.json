@@ -1,0 +1,69 @@
+{
+  "_from": "github:zengqingsong/koahub-mongo",
+  "_inBundle": false,
+  "_location": "/koahub-mongo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:zengqingsong/koahub-mongo",
+    "rawSpec": "github:zengqingsong/koahub-mongo",
+    "saveSpec": "github:zengqingsong/koahub-mongo",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:zengqingsong/koahub-mongo#4c70fd316b6c27853d9246f23583dd361127bb04",
+  "_spec": "github:zengqingsong/koahub-mongo",
+  "_where": "/home/zengqs/Documents/NodeJS/koa/koahubjs-demo",
+  "author": "js.koahub.com",
+  "bugs": {
+    "url": "https://github.com/zengqingsong/koahub-mongo/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.0.0",
+    "path": "^0.12.7"
+  },
+  "deprecated": false,
+  "description": "KoaHub Mongo -- KoaHub.js mongoDB库。",
+  "devDependencies": {
+    "istanbul": "1.1.0-alpha.1",
+    "mocha": "3.2.0",
+    "supertest": "3.0.0"
+  },
+  "directories": {},
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "homepage": "https://github.com/zengqingsong/koahub-mongo#readme",
+  "keywords": [
+    "orm",
+    "mongo",
+    "datamapper",
+    "active record",
+    "koa",
+    "koahub",
+    "koahubjs"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "maintainers": [
+    "qingsong zeng <qingsongzeng@163.com>"
+  ],
+  "name": "koahub-mongo",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zengqingsong/koahub-mongo.git"
+  },
+  "scripts": {
+    "cover": "istanbul cover _mocha -- --recursive test/{,**/}*.test.js",
+    "test": "mocha --recursive test/{,**/}*.test.js"
+  },
+  "version": "1.1.0"
+}
